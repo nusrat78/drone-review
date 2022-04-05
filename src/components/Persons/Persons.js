@@ -11,7 +11,7 @@ const Persons = () => {
     }, []);
 
     return (
-        <div className='person-container'>
+        <div className='grid grid-cols-3 gap-4 gap-x-6 mt-8 p-4'>
             {
                 persons.map(person => <Person person={person}></Person>)
             }
