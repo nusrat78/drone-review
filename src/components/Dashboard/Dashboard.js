@@ -1,11 +1,12 @@
 import React from 'react';
-import Drones from '../Drones/Drones';
+import Charts from '../Charts/Charts';
+
 
 const Dashboard = () => {
     return (
         <div>
             <h1>dashboard</h1>
-            <Drones></Drones>
+            <Charts></Charts>
         </div>
     );
 };
